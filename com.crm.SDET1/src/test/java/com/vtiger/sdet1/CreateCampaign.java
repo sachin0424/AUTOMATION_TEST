@@ -29,7 +29,7 @@ public class CreateCampaign extends Baseclass {
 		
 		
 		 
-			 /*fetching data from exceL file*/		
+			 /*fetching data from excel file*/		
 			 String compignName = exl.getDataFromExcel("compaing", 3, 1)+jll.getRanDomNum();
 			 
 			
