@@ -27,7 +27,7 @@ public class CreateContact1 extends Baseclass {
 		JavaUtilityLibraries jll=new JavaUtilityLibraries();
 		
 		int getrandomnum = jll.getRanDomNum();
-	 /*fetching data from excel file*/		
+	 /*fetching data from exceL file*/		
 	 String lastname = exl.getDataFromExcel("org", 2, 3)+jll.getRanDomNum();
 	 String orgname = exl.getDataFromExcel("org", 1, 3);
 	
